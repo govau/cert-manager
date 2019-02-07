@@ -1054,7 +1054,7 @@
   version = "kubernetes-1.10.0"
 
 [[projects]]
-  digest = "1:88fb3e20e1243e97a0c17a3960647e251fecee83d702aa278564b6af659829ff"
+  digest = "1:2498726edc53d611e9b992bd87453b64cea893454fb12b006af6d9e53f3242f3"
   name = "k8s.io/apiserver"
   packages = [
     "pkg/admission",
@@ -1141,13 +1141,14 @@
     "pkg/util/wsstream",
     "plugin/pkg/audit/buffered",
     "plugin/pkg/audit/log",
+    "plugin/pkg/audit/truncate",
     "plugin/pkg/audit/webhook",
     "plugin/pkg/authenticator/token/webhook",
     "plugin/pkg/authorizer/webhook",
   ]
   pruneopts = "UT"
-  revision = "5ae41ac86efd753e2ba012f097b83a914b268236"
-  version = "kubernetes-1.10.0"
+  revision = "350f23162361593622405c01a5273b759be18324"
+  version = "kubernetes-1.10.7"
 
 [[projects]]
   digest = "1:08c79e61915eaf2086697d8ce78ed1486cfcace56acde67da8d6ade102a79f37"
